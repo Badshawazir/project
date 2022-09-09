@@ -260,7 +260,7 @@ def result():
 				cpkuh=f'# ID : {cpkuni[0]} PASSWORD : {cpkuni[1]}'
 				sol().print(mark(cpkuh,style="yellow"))
 				nocp +=1
-			input('[ Klik Enter ]')
+			input('[ Click Enter ]')
 			back()
 	elif kz in ['2','02']:
 		try:vin = os.listdir('OK')
